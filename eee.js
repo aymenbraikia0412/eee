@@ -34581,8 +34581,8 @@
 		ctx.fillStyle = "red";
 		ctx.strokeStyle = "black";
 		ctx.font = "35px Baloo Paaji";
-		ctx.strokeText(Math.floor(user.gauges.l * 200) + "hp", this.translate.x -70, this.translate.y + 35);
-		ctx.fillText(Math.floor(user.gauges.l * 200) + "hp", this.translate.x -70, this.translate.y + 35);
+		ctx.strokeText(Math.floor(user.gauges.l * 200) + "hp", this.translate.x -75, this.translate.y + 35);
+		ctx.fillText(Math.floor(user.gauges.l * 200) + "hp", this.translate.x -75, this.translate.y + 35);
 		ctx.restore();
         
         
