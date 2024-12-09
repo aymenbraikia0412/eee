@@ -54831,7 +54831,7 @@
 
 // hacks
 
-
+alert("-_-")
 const gaug = {
     hp:100
 }
