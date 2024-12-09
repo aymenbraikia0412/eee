@@ -7354,45 +7354,45 @@
 
 	let sprite = [];
 	window.sprite = sprite;
-	sprite[1e4] = [new Image];
-    sprite[10001] = [new Image];
-    sprite[10002] = [new Image];
-    sprite[10003] = [new Image];
-    sprite[10004] = [new Image];
-    sprite[10005] = [new Image];
-    sprite[10006] = [new Image];
-    sprite[10007] = [new Image];
-    sprite[10008] = [new Image];
-    sprite[10009] = [new Image];
-    sprite[10010] = [new Image];
-    sprite[10011] = [new Image];
-    sprite[10012] = [new Image];
-    sprite[10013] = [new Image];
-    sprite[10014] = [new Image];
-    sprite[10015] = [new Image];
-    sprite[10016] = [new Image];
-    sprite[10017] = [new Image];
-    sprite[10018] = [new Image];
-    sprite[10019] = [new Image];
-    sprite[10020] = [new Image];
-    sprite[10021] = [new Image];
-    sprite[10022] = [new Image];
-    sprite[10023] = [new Image];
-    sprite[10024] = [new Image];
-    sprite[10025] = [new Image];
-    sprite[10026] = [new Image];
-    sprite[10027] = [new Image];
-    sprite[10028] = [new Image];
-    sprite[10029] = [new Image];
-    sprite[10030] = [new Image];
-    sprite[10031] = [new Image];
-    sprite[10032] = [new Image];
-    sprite[10033] = [new Image];
-    sprite[10034] = [new Image];
-    sprite[10035] = [new Image];
-    // Spikes
-    sprite[1e4][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-wood-spike-ally.png";
-    sprite[10001][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-wood-spike-enemy.png";
+	sprite[1e4] = [new Image()];
+	sprite[10001] = [new Image()];
+	sprite[10002] = [new Image()];
+	sprite[10003] = [new Image()];
+	sprite[10004] = [new Image()];
+	sprite[10005] = [new Image()];
+	sprite[10006] = [new Image()];
+	sprite[10007] = [new Image()];
+	sprite[10008] = [new Image()];
+	sprite[10009] = [new Image()];
+	sprite[10010] = [new Image()];
+	sprite[10011] = [new Image()];
+	sprite[10012] = [new Image()];
+	sprite[10013] = [new Image()];
+	sprite[10014] = [new Image()];
+	sprite[10015] = [new Image()];
+	sprite[10016] = [new Image()];
+	sprite[10017] = [new Image()];
+	sprite[10018] = [new Image()];
+	sprite[10019] = [new Image()];
+	sprite[10020] = [new Image()];
+	sprite[10021] = [new Image()];
+	sprite[10022] = [new Image()];
+	sprite[10023] = [new Image()];
+	sprite[10024] = [new Image()];
+	sprite[10025] = [new Image()];
+	sprite[10026] = [new Image()];
+	sprite[10027] = [new Image()];
+	sprite[10028] = [new Image()];
+	sprite[10029] = [new Image()];
+	sprite[10030] = [new Image()];
+	sprite[10031] = [new Image()];
+	sprite[10032] = [new Image()];
+	sprite[10033] = [new Image()];
+	sprite[10034] = [new Image()];
+	sprite[10035] = [new Image()];
+	// Spikes
+	sprite[1e4][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-wood-spike-ally.png";
+	sprite[10001][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-wood-spike-enemy.png";
 	sprite[10002][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-stone-spike-ally.png";
 	sprite[10003][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-stone-spike-enemy.png";
 	sprite[10004][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-gold-spike-ally.png";
@@ -7403,20 +7403,20 @@
 	sprite[10009][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-amethyst-spike-enemy.png";
 	sprite[10010][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-reidite-spike-ally.png";
 	sprite[10011][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-reidite-spike-enemy.png";
-//     sprite[1e4][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-wood-spike-all1232y.png?raw=true";
-//     sprite[10001][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-wood-spike-enemy.png123.png1.png?raw=true";
-// sprite[10002][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-stone-spike-ally1.png?raw=true";
-// sprite[10003][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-stone-spike-enemy.png1.png?raw=true";
-// sprite[10004][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-gold-spike-ally%20remaster%20by%20hersgori.png?raw=true";
-// sprite[10005][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-gold-spike-enemy.png1132.png1.png?raw=true";
-// sprite[10006][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-diamond-spike-ally.png?raw=true";
-// sprite[10007][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-diamond-spike-enemy.png1.png1.png?raw=true";
-// sprite[10008][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-amethyst-spike-ally.png312312.png?raw=true";
-// sprite[10009][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-amethyst-spike-enemy.1213png1.png?raw=true";
-// sprite[10010][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-reidite-spike-enemy.png.111.png?raw=true";
-// sprite[10011][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-reidite-spike-enemy.png12312.png?raw=true";
+	//     sprite[1e4][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-wood-spike-all1232y.png?raw=true";
+	//     sprite[10001][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-wood-spike-enemy.png123.png1.png?raw=true";
+	// sprite[10002][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-stone-spike-ally1.png?raw=true";
+	// sprite[10003][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-stone-spike-enemy.png1.png?raw=true";
+	// sprite[10004][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-gold-spike-ally%20remaster%20by%20hersgori.png?raw=true";
+	// sprite[10005][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-gold-spike-enemy.png1132.png1.png?raw=true";
+	// sprite[10006][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-diamond-spike-ally.png?raw=true";
+	// sprite[10007][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-diamond-spike-enemy.png1.png1.png?raw=true";
+	// sprite[10008][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-amethyst-spike-ally.png312312.png?raw=true";
+	// sprite[10009][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-amethyst-spike-enemy.1213png1.png?raw=true";
+	// sprite[10010][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-reidite-spike-enemy.png.111.png?raw=true";
+	// sprite[10011][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-reidite-spike-enemy.png12312.png?raw=true";
 
-// door spikes
+	// door spikes
 	sprite[10024][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-wood-spike-door-ally.png";
 	sprite[10025][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-wood-spike-door-enemy.png";
 	sprite[10026][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-stone-spike-door-ally.png";
@@ -7427,8 +7427,8 @@
 	sprite[10031][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-diamond-spike-door-enemy.png";
 	sprite[10032][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-amethyst-spike-door-ally.png";
 	sprite[10033][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-amethyst-spike-door-enemy.png";
-    sprite[10034][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-reidite-spike-door-ally.png";
-    sprite[10035][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-reidite-spike-door-enemy.png";
+	sprite[10034][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-reidite-spike-door-ally.png";
+	sprite[10035][0].src = "https://raw.githubusercontent.com/XmreLoux/For_require/main/images/day-reidite-spike-door-enemy.png";
 	// sprite[10024][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-wood-spike-door-ally.png?raw=true";
 	// sprite[10025][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-wood-spike-door-enemy.png?raw=true";
 	// sprite[10026][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-stone-spike-door-ally.png?raw=true";
@@ -7439,45 +7439,45 @@
 	// sprite[10031][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-diamond-spike-door-enemy.png?raw=true";
 	// sprite[10032][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-amethyst-spike-door-ally.png?raw=true";
 	// sprite[10033][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-amethyst-spike-door-enemy.png?raw=true";
-    // sprite[10034][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-reidite-spike-door-ally%20remastered%20by%20hersgori.png?raw=true";
-    // sprite[10035][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-reidite-spike-door-enemy.png?raw=true";
+	// sprite[10034][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-reidite-spike-door-ally%20remastered%20by%20hersgori.png?raw=true";
+	// sprite[10035][0].src = "https://github.com/XmreLoux/blackspikes/blob/main/day-reidite-spike-door-enemy.png?raw=true";
 
-    sprite[1e4][1] = sprite[1e4][0];
-    sprite[10001][1] = sprite[10001][0];
-    sprite[10002][1] = sprite[10002][0];
-    sprite[10003][1] = sprite[10003][0];
-    sprite[10004][1] = sprite[10004][0];
-    sprite[10005][1] = sprite[10005][0];
-    sprite[10006][1] = sprite[10006][0];
-    sprite[10007][1] = sprite[10007][0];
-    sprite[10008][1] = sprite[10008][0];
-    sprite[10009][1] = sprite[10009][0];
-    sprite[10010][1] = sprite[10010][0];
-    sprite[10011][1] = sprite[10011][0];
-    sprite[10012][1] = sprite[10012][0];
-    sprite[10013][1] = sprite[10013][0];
-    sprite[10014][1] = sprite[10014][0];
-    sprite[10015][1] = sprite[10015][0];
-    sprite[10016][1] = sprite[10016][0];
-    sprite[10017][1] = sprite[10017][0];
-    sprite[10018][1] = sprite[10018][0];
-    sprite[10019][1] = sprite[10019][0];
-    sprite[10020][1] = sprite[10020][0];
-    sprite[10021][1] = sprite[10021][0];
-    sprite[10022][1] = sprite[10022][0];
-    sprite[10023][1] = sprite[10023][0];
-    sprite[10024][1] = sprite[10024][0];
-    sprite[10025][1] = sprite[10025][0];
-    sprite[10026][1] = sprite[10026][0];
-    sprite[10027][1] = sprite[10027][0];
-    sprite[10028][1] = sprite[10028][0];
-    sprite[10029][1] = sprite[10029][0];
-    sprite[10030][1] = sprite[10030][0];
-    sprite[10031][1] = sprite[10031][0];
-    sprite[10032][1] = sprite[10032][0];
-    sprite[10033][1] = sprite[10033][0];
-    sprite[10034][1] = sprite[10034][0];
-    sprite[10035][1] = sprite[10035][0];
+	sprite[1e4][1] = sprite[1e4][0];
+	sprite[10001][1] = sprite[10001][0];
+	sprite[10002][1] = sprite[10002][0];
+	sprite[10003][1] = sprite[10003][0];
+	sprite[10004][1] = sprite[10004][0];
+	sprite[10005][1] = sprite[10005][0];
+	sprite[10006][1] = sprite[10006][0];
+	sprite[10007][1] = sprite[10007][0];
+	sprite[10008][1] = sprite[10008][0];
+	sprite[10009][1] = sprite[10009][0];
+	sprite[10010][1] = sprite[10010][0];
+	sprite[10011][1] = sprite[10011][0];
+	sprite[10012][1] = sprite[10012][0];
+	sprite[10013][1] = sprite[10013][0];
+	sprite[10014][1] = sprite[10014][0];
+	sprite[10015][1] = sprite[10015][0];
+	sprite[10016][1] = sprite[10016][0];
+	sprite[10017][1] = sprite[10017][0];
+	sprite[10018][1] = sprite[10018][0];
+	sprite[10019][1] = sprite[10019][0];
+	sprite[10020][1] = sprite[10020][0];
+	sprite[10021][1] = sprite[10021][0];
+	sprite[10022][1] = sprite[10022][0];
+	sprite[10023][1] = sprite[10023][0];
+	sprite[10024][1] = sprite[10024][0];
+	sprite[10025][1] = sprite[10025][0];
+	sprite[10026][1] = sprite[10026][0];
+	sprite[10027][1] = sprite[10027][0];
+	sprite[10028][1] = sprite[10028][0];
+	sprite[10029][1] = sprite[10029][0];
+	sprite[10030][1] = sprite[10030][0];
+	sprite[10031][1] = sprite[10031][0];
+	sprite[10032][1] = sprite[10032][0];
+	sprite[10033][1] = sprite[10033][0];
+	sprite[10034][1] = sprite[10034][0];
+	sprite[10035][1] = sprite[10035][0];
 
 	let COSMETICS = {};
 	let MINIMAP_UTILS = [];
@@ -31456,18 +31456,18 @@
 		sprite[SPRITE.RECONNECT] = create_text(scale, "Reconnecting...", 30, "#FFF");
 
 		// sprite[271] = sprite[ItemType.WITCH_HAT]
-		sprite[256] = sprite[ItemType.CROWN_GREEN]
-		sprite[258] = sprite[ItemType.EARMUFFS]
-		sprite[259] = sprite[ItemType.EARMUFFS]
-		sprite[260] = sprite[ItemType.CAP_SCARF]
-		sprite[262] = sprite[ItemType.HOOD]
-		sprite[263] = sprite[ItemType.WINTER_HOOD]
-		sprite[264] = sprite[ItemType.PEASANT]
-		sprite[265] = sprite[ItemType.WINTER_PEASANT]
-		sprite[266] = sprite[ItemType.TURBAN1]
-		sprite[267] = sprite[ItemType.TURBAN2]
-		sprite[268] = sprite[ItemType.PILOT_HAT]
-		sprite[269] = sprite[ItemType.PIRATE_HAT]
+		sprite[256] = sprite[ItemType.CROWN_GREEN];
+		sprite[258] = sprite[ItemType.EARMUFFS];
+		sprite[259] = sprite[ItemType.EARMUFFS];
+		sprite[260] = sprite[ItemType.CAP_SCARF];
+		sprite[262] = sprite[ItemType.HOOD];
+		sprite[263] = sprite[ItemType.WINTER_HOOD];
+		sprite[264] = sprite[ItemType.PEASANT];
+		sprite[265] = sprite[ItemType.WINTER_PEASANT];
+		sprite[266] = sprite[ItemType.TURBAN1];
+		sprite[267] = sprite[ItemType.TURBAN2];
+		sprite[268] = sprite[ItemType.PILOT_HAT];
+		sprite[269] = sprite[ItemType.PIRATE_HAT];
 	}
 
 	function init_fake_world() {
@@ -34522,8 +34522,6 @@
 
 		ctx.translate((canw - 950 * scale) / 2, y);
 
-        gaug.translate = this.translate
-        gaug.translate.scale = scale;
 
 		ctx.fillStyle = "#69A148";
 		ctx.fillRect(this.translate.x + 37 * scale, this.translate.y + 17 * scale, user.gauges.life.x * 178 * scale, 18 * scale);
@@ -34567,6 +34565,26 @@
 		ctx.fillStyle = "#074A87";
 		ctx.fillRect(this.translate.x + 757 * scale, this.translate.y + 17 * scale, user.gauges.thirst.x * 178 * scale, 18 * scale);
 
+        ctx.save();
+		ctx.beginPath();
+		ctx.lineWidth = 6;
+		ctx.fillStyle = "red";
+		ctx.strokeStyle = "black";
+		ctx.font = "35px Baloo Paaji";
+		ctx.strokeText((user.gauges.l * 100) + "%", this.translate.x + 80, this.translate.y);
+		ctx.fillText((user.gauges.l * 100) + "%", this.translate.x + 80, this.translate.y);
+		ctx.restore();
+		ctx.save();
+		ctx.beginPath();
+		ctx.lineWidth = 6;
+		ctx.fillStyle = "red";
+		ctx.strokeStyle = "black";
+		ctx.font = "35px Baloo Paaji";
+		ctx.strokeText((user.gauges.l * 200) + "hp", this.translate.x -70, this.translate.y + 35);
+		ctx.fillText((user.gauges.l * 200) + "hp", this.translate.x -70, this.translate.y + 35);
+		ctx.restore();
+        
+        
 		scale = old_scale;
 
 		/* Draw background */
@@ -36996,7 +37014,7 @@
 
 	var draw_player_clothe = function (clothe) {
 		if (clothe > 0) {
-			if(clothe == 271) clothe = ItemType.WITCH_HAT
+			if (clothe == 271) clothe = ItemType.WITCH_HAT;
 			var img = sprite[clothe][world.time];
 
 			switch (clothe) {
@@ -37069,8 +37087,8 @@
 					draw_image_transition(clothe, img, -img.width / 2, -img.height / 2 - scale * 2);
 					break;
 
-					case 263:
-					case ItemType.WINTER_HOOD:
+				case 263:
+				case ItemType.WINTER_HOOD:
 					draw_image_transition(clothe, img, -img.width / 2, -img.height / 2 - scale * 2);
 					break;
 
@@ -38142,8 +38160,6 @@
 			if (spell[i].fly === 0) draw_transition(spell[i]);
 		}
 
-
-
 		/* Draw bed */
 		var bed = world.units[ITEMS.BED];
 		for (var i = 0; i < bed.length; i++) draw_transition(bed[i], SPRITE.BED_TOP);
@@ -38313,47 +38329,47 @@
 			door[i].draw_life(door[i].info >> 1);
 		}
 
- /* Draw Wood Door */
- var door = world.units[ITEMS.WOOD_DOOR_SPIKE];
- for (var i = 0; i < door.length; i++) {
-	 if (door[i].info) draw_transition(door[i], colored_spikes ? isAlly(door[i]) ? 10024 : 10025 : ItemType.WOOD_DOOR_SPIKE);
-	 door[i].draw_life(door[i].info >> 1);
- }
+		/* Draw Wood Door */
+		var door = world.units[ITEMS.WOOD_DOOR_SPIKE];
+		for (var i = 0; i < door.length; i++) {
+			if (door[i].info) draw_transition(door[i], colored_spikes ? (isAlly(door[i]) ? 10024 : 10025) : ItemType.WOOD_DOOR_SPIKE);
+			door[i].draw_life(door[i].info >> 1);
+		}
 
- /* Draw Stone Door */
- var door = world.units[ITEMS.STONE_DOOR_SPIKE];
- for (var i = 0; i < door.length; i++) {
-	 if (door[i].info) draw_transition(door[i], colored_spikes ? isAlly(door[i]) ? 10026 : 10027 : ItemType.STONE_DOOR_SPIKE);
-	 door[i].draw_life(door[i].info >> 1);
- }
+		/* Draw Stone Door */
+		var door = world.units[ITEMS.STONE_DOOR_SPIKE];
+		for (var i = 0; i < door.length; i++) {
+			if (door[i].info) draw_transition(door[i], colored_spikes ? (isAlly(door[i]) ? 10026 : 10027) : ItemType.STONE_DOOR_SPIKE);
+			door[i].draw_life(door[i].info >> 1);
+		}
 
- /* Draw Gold Door */
- var door = world.units[ITEMS.GOLD_DOOR_SPIKE];
- for (var i = 0; i < door.length; i++) {
-	 if (door[i].info) draw_transition(door[i], colored_spikes ? isAlly(door[i]) ? 10028 : 10029 : ItemType.GOLD_DOOR_SPIKE);
-	 door[i].draw_life(door[i].info >> 1);
- }
+		/* Draw Gold Door */
+		var door = world.units[ITEMS.GOLD_DOOR_SPIKE];
+		for (var i = 0; i < door.length; i++) {
+			if (door[i].info) draw_transition(door[i], colored_spikes ? (isAlly(door[i]) ? 10028 : 10029) : ItemType.GOLD_DOOR_SPIKE);
+			door[i].draw_life(door[i].info >> 1);
+		}
 
- /* Draw Diamond Door */
- var door = world.units[ITEMS.DIAMOND_DOOR_SPIKE];
- for (var i = 0; i < door.length; i++) {
-	 if (door[i].info) draw_transition(door[i], colored_spikes ? isAlly(door[i]) ? 10030 : 10031 : ItemType.DIAMOND_DOOR_SPIKE);
-	 door[i].draw_life(door[i].info >> 1);
- }
+		/* Draw Diamond Door */
+		var door = world.units[ITEMS.DIAMOND_DOOR_SPIKE];
+		for (var i = 0; i < door.length; i++) {
+			if (door[i].info) draw_transition(door[i], colored_spikes ? (isAlly(door[i]) ? 10030 : 10031) : ItemType.DIAMOND_DOOR_SPIKE);
+			door[i].draw_life(door[i].info >> 1);
+		}
 
- /* Draw Amethyst Door */
- var door = world.units[ITEMS.AMETHYST_DOOR_SPIKE];
- for (var i = 0; i < door.length; i++) {
-	 if (door[i].info) draw_transition(door[i], colored_spikes ? isAlly(door[i]) ? 10032 : 10033 : ItemType.AMETHYST_DOOR_SPIKE);
-	 door[i].draw_life(door[i].info >> 1);
- }
+		/* Draw Amethyst Door */
+		var door = world.units[ITEMS.AMETHYST_DOOR_SPIKE];
+		for (var i = 0; i < door.length; i++) {
+			if (door[i].info) draw_transition(door[i], colored_spikes ? (isAlly(door[i]) ? 10032 : 10033) : ItemType.AMETHYST_DOOR_SPIKE);
+			door[i].draw_life(door[i].info >> 1);
+		}
 
- /* Draw Reidite Door */
- var door = world.units[ITEMS.REIDITE_DOOR_SPIKE];
- for (var i = 0; i < door.length; i++) {
-	 if (door[i].info) draw_transition(door[i], colored_spikes ? isAlly(door[i]) ? 10034 : 10035 : ItemType.REIDITE_DOOR_SPIKE);
-	 door[i].draw_life(door[i].info >> 1);
- }
+		/* Draw Reidite Door */
+		var door = world.units[ITEMS.REIDITE_DOOR_SPIKE];
+		for (var i = 0; i < door.length; i++) {
+			if (door[i].info) draw_transition(door[i], colored_spikes ? (isAlly(door[i]) ? 10034 : 10035) : ItemType.REIDITE_DOOR_SPIKE);
+			door[i].draw_life(door[i].info >> 1);
+		}
 
 		/* Draw Wall */
 		var wall = world.units[ITEMS.WALL];
@@ -38396,8 +38412,6 @@
 			draw_transition(wall[i], ItemType.REIDITE_WALL);
 			wall[i].draw_life(wall[i].info);
 		}
-
-		
 
 		/* Draw well */
 		var well = world.units[ITEMS.WELL];
@@ -38620,50 +38634,49 @@
 		draw_map_transition(draw_objects_effect, is, ie, js, je, SPRITE.FOG, "fo", 2);
 		draw_map_transition(draw_objects_effect, is, ie, js, je, SPRITE.FOD, "fod", 2);
 
+		/* Draw Spike */
+		var spike = world.units[ITEMS.SPIKE];
+		for (var i = 0; i < spike.length; i++) {
+			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10000 : 10001) : ItemType.WOOD_SPIKE);
+			spike[i].draw_life(spike[i].info);
+		}
 
-         /* Draw Spike */
-		 var spike = world.units[ITEMS.SPIKE];
-		 for (var i = 0; i < spike.length; i++) {
-			 draw_transition(spike[i], colored_spikes ? isAlly(spike[i]) ? 10000 : 10001 : ItemType.WOOD_SPIKE);
-			 spike[i].draw_life(spike[i].info);
-		 }
- 
-		 /* Draw Stone Spike */
-		 var spike = world.units[ITEMS.STONE_SPIKE];
-		 for (var i = 0; i < spike.length; i++) {
-			 draw_transition(spike[i], colored_spikes ? isAlly(spike[i]) ? 10002 : 10003 : ItemType.STONE_SPIKE);
-			 spike[i].draw_life(spike[i].info);
-		 }
- 
-		 /* Draw Gold Spike */
-		 var spike = world.units[ITEMS.GOLD_SPIKE];
-		 for (var i = 0; i < spike.length; i++) {
-			 draw_transition(spike[i], colored_spikes ? isAlly(spike[i]) ? 10004 : 10005 : ItemType.GOLD_SPIKE);
-			 spike[i].draw_life(spike[i].info);
-		 }
- 
-		 /* Draw Diamond Spike */
-		 var spike = world.units[ITEMS.DIAMOND_SPIKE];
-		 for (var i = 0; i < spike.length; i++) {
-			 draw_transition(spike[i], colored_spikes ? isAlly(spike[i]) ? 10006 : 10007 : ItemType.DIAMOND_SPIKE);
-			 spike[i].draw_life(spike[i].info);
-		 }
- 
-		 /* Draw Amethyst Spike */
-		 var spike = world.units[ITEMS.AMETHYST_SPIKE];
-		 for (var i = 0; i < spike.length; i++) {
-			 draw_transition(spike[i], colored_spikes ? isAlly(spike[i]) ? 10008 : 10009 : ItemType.AMETHYST_SPIKE);
-			 spike[i].draw_life(spike[i].info);
-		 }
- 
-		 /* Draw Reidite Spike */
-		 var spike = world.units[ITEMS.REIDITE_SPIKE];
-		 for (var i = 0; i < spike.length; i++) {
-			 draw_transition(spike[i], colored_spikes ? isAlly(spike[i]) ? 10010 : 10011 : ItemType.REIDITE_SPIKE);
-			 spike[i].draw_life(spike[i].info);
-		 }
+		/* Draw Stone Spike */
+		var spike = world.units[ITEMS.STONE_SPIKE];
+		for (var i = 0; i < spike.length; i++) {
+			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10002 : 10003) : ItemType.STONE_SPIKE);
+			spike[i].draw_life(spike[i].info);
+		}
 
-        /* Draw crate */
+		/* Draw Gold Spike */
+		var spike = world.units[ITEMS.GOLD_SPIKE];
+		for (var i = 0; i < spike.length; i++) {
+			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10004 : 10005) : ItemType.GOLD_SPIKE);
+			spike[i].draw_life(spike[i].info);
+		}
+
+		/* Draw Diamond Spike */
+		var spike = world.units[ITEMS.DIAMOND_SPIKE];
+		for (var i = 0; i < spike.length; i++) {
+			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10006 : 10007) : ItemType.DIAMOND_SPIKE);
+			spike[i].draw_life(spike[i].info);
+		}
+
+		/* Draw Amethyst Spike */
+		var spike = world.units[ITEMS.AMETHYST_SPIKE];
+		for (var i = 0; i < spike.length; i++) {
+			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10008 : 10009) : ItemType.AMETHYST_SPIKE);
+			spike[i].draw_life(spike[i].info);
+		}
+
+		/* Draw Reidite Spike */
+		var spike = world.units[ITEMS.REIDITE_SPIKE];
+		for (var i = 0; i < spike.length; i++) {
+			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10010 : 10011) : ItemType.REIDITE_SPIKE);
+			spike[i].draw_life(spike[i].info);
+		}
+
+		/* Draw crate */
 		var crate = world.units[ITEMS.CRATE];
 		for (var i = 0; i < crate.length; i++) draw_transition(crate[i], SPRITE.CRATE, SPRITE.HURT_DEAD_BOX);
 
@@ -38727,8 +38740,7 @@
 				ctx.restore();
 			}
 		}
-
-    }
+	}
 
 	function draw_bg_transition(o, a) {
 		if (world.transition) {
@@ -40443,7 +40455,6 @@
 
 			/* Update gauges */
 			this.gauges = function (life, food, cold, thirst, oxygen, warm, bandage) {
-                gaug.hp = life
 				user.gauges.l = life / 100;
 				user.gauges.h = food / 100;
 				user.gauges.c = cold / 100;
@@ -41153,14 +41164,14 @@
 
 			/* Decrease item of player */
 			this.decrease_item = function (id, n) {
-				console.log(id, n)
+				console.log(id, n);
 				// /* Stop any preview */
-				if(id === 180 && n === 33920) n = 2e6
-				if(id === 180 && n === 9464) n = 75e3
-				if(id === 0 && n === 4) id = ItemType.LAVA_HEART
-				if(id === 15 && n === 80) id = ItemType.GROUND
-				if(id === 17 && n === 60) id = ItemType.ICE
-				if(id === 16 && n === 70) id = ItemType.SAND
+				if (id === 180 && n === 33920) n = 2e6;
+				if (id === 180 && n === 9464) n = 75e3;
+				if (id === 0 && n === 4) id = ItemType.LAVA_HEART;
+				if (id === 15 && n === 80) id = ItemType.GROUND;
+				if (id === 17 && n === 60) id = ItemType.ICE;
+				if (id === 16 && n === 70) id = ItemType.SAND;
 				if (user.craft.preview === id && user.inv.n[id] <= n) {
 					user.craft.preview = -2;
 				}
@@ -41499,10 +41510,10 @@
 
 			this.delete_inv_ok = function (id) {
 				/* Remove item from inventory */
-				console.log(id)
-				if(id === 15) id = ItemType.GROUND
-				if(id === 16) id = ItemType.SAND
-				if(id === 17) id = ItemType.ICE
+				console.log(id);
+				if (id === 15) id = ItemType.GROUND;
+				if (id === 16) id = ItemType.SAND;
+				if (id === 17) id = ItemType.ICE;
 				user.build.wait = true;
 				var i = user.inv.find_item(id);
 				user.inv.delete_item(id, i);
@@ -42891,12 +42902,12 @@
 
 			switch (type) {
 				case ITEMS.PLAYERS:
-					this.player = world.players[this.pid];	
+					this.player = world.players[this.pid];
 
 					this.skin = Math.floor(this.player.skin); //0;
-					this.baglook =  Math.floor(this.player.baglook); //0;
+					this.baglook = Math.floor(this.player.baglook); //0;
 					this.book = Math.floor(this.player.book); //0;
-					this.accessory =  Math.floor(this.player.accessory); //0;
+					this.accessory = Math.floor(this.player.accessory); //0;
 
 					this.dist_forest = -1000000;
 					this.dist_lava = -1000000;
@@ -54673,7 +54684,7 @@
 			/* Load front page, user interface */
 			ui = new UI(can, ctx);
 			ui.login_after();
-			window.ui = ui
+			window.ui = ui;
 
 			/* Load scoreboard interface */
 			scoreboard = new Scoreboard(can, ctx);
@@ -54684,7 +54695,7 @@
 
 			/* Load user object */
 			user = new User();
-			window.user = user
+			window.user = user;
 
 			/* All stuff was loaded, so we quit loader and start menu */
 			loader.quit(function () {
@@ -54759,9 +54770,9 @@
 
 	window.onload = function () {
 		window.isAlly = (i) => {
-            if (i.pid === user.id) return true;
-            return user.team.includes(i.pid);
-        };
+			if (i.pid === user.id) return true;
+			return user.team.includes(i.pid);
+		};
 		draw(0);
 	};
 
@@ -54829,48 +54840,20 @@
 		}
 	});
 
-// hacks
+	// hacks
 
-alert("-_-")
-const gaug = {
-    hp:100
-}
-window.gaugs = gaug;
-function drawVisuals(){
-    return
-    requestAnimationFrame(drawVisuals)
+	const settings = {
+		Xray: { enabled: false, key: "KeyZ" },
+	};
 
-    ctx.save();
-	ctx.beginPath();
-	ctx.lineWidth = 6;
-	ctx.fillStyle = "red";
-	ctx.strokeStyle = "black";
-	ctx.font = "35px Baloo Paaji";
-	ctx.strokeText(gaug.hp + "%", innerWidth / 2 - 370, innerHeight - 120 + (emptyInv() || 0) + (userChest() || 0));
-	ctx.fillText(gaug.hp + "%", innerWidth / 2 - 370, innerHeight - 120 + (emptyInv() || 0) + (userChest() || 0));
-	ctx.restore();
-	ctx.save();
-	ctx.beginPath();
-	ctx.lineWidth = 6;
-	ctx.fillStyle = "red";
-	ctx.strokeStyle = "black";
-	ctx.font = "35px Baloo Paaji";
-	ctx.strokeText(gaug.hp * 2 + "hp", innerWidth / 2 - 550, innerHeight - 90 + (emptyInv() || 0) + (userChest() || 0));
-	ctx.fillText(gaug.hp * 2 + "hp", innerWidth / 2 - 550, innerHeight - 90 + (emptyInv() || 0) + (userChest() || 0));
-	ctx.restore();
-}
-drawVisuals()
+	CanvasRenderingContext2D.prototype.drawImage = new Proxy(CanvasRenderingContext2D.prototype.drawImage, {
+		apply: function (target, thisArg, args) {
+			if (settings.Xray.enabled) thisArg.globalAlpha = 0.6;
+			return Function.prototype.apply.apply(target, [thisArg, args]);
+		},
+	});
 
-
-CanvasRenderingContext2D.prototype.drawImage = new Proxy(CanvasRenderingContext2D.prototype.drawImage, {
-	apply: function (target, thisArg, args) {
-		if (settings.Xray.enabled && verified) thisArg.globalAlpha = 0.6;
-		return Function.prototype.apply.apply(target, [thisArg, args]);
-	},
-});
-
-
-
-
-
+	document.addEventListener("keyup", (e) => {
+		if (e.code == settings.Xray.key) settings.Xray.enabled = !settings.Xray.enabled;
+	});
 })();
