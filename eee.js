@@ -16216,7 +16216,8 @@
 		//     circle(ctx, 44 * scale, 55 * scale, 41 * scale);
 		//     fill_path(ctx, color[0]); //#4c3b19 #574122
 		// }
-		/* Draw Door */
+		
+        /* Draw Door */
 		ctx.globalAlpha = 1;
 		circle(ctx, 44 * scale, 45 * scale, 41 * scale);
 		fill_path(ctx, color[1], color[2], 4 * scale); //#4c3b19 #574122
@@ -38328,6 +38329,48 @@
 			if (door[i].info) draw_transition(door[i], ItemType.REIDITE_DOOR);
 			door[i].draw_life(door[i].info >> 1);
 		}
+        /* Draw Spike */
+		var spike = world.units[ITEMS.SPIKE];
+		for (var i = 0; i < spike.length; i++) {
+			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10000 : 10001) : ItemType.WOOD_SPIKE);
+			spike[i].draw_life(spike[i].info);
+		}
+
+		/* Draw Stone Spike */
+		var spike = world.units[ITEMS.STONE_SPIKE];
+		for (var i = 0; i < spike.length; i++) {
+			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10002 : 10003) : ItemType.STONE_SPIKE);
+			spike[i].draw_life(spike[i].info);
+		}
+
+		/* Draw Gold Spike */
+		var spike = world.units[ITEMS.GOLD_SPIKE];
+		for (var i = 0; i < spike.length; i++) {
+			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10004 : 10005) : ItemType.GOLD_SPIKE);
+			spike[i].draw_life(spike[i].info);
+		}
+
+		/* Draw Diamond Spike */
+		var spike = world.units[ITEMS.DIAMOND_SPIKE];
+		for (var i = 0; i < spike.length; i++) {
+			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10006 : 10007) : ItemType.DIAMOND_SPIKE);
+			spike[i].draw_life(spike[i].info);
+		}
+
+		/* Draw Amethyst Spike */
+		var spike = world.units[ITEMS.AMETHYST_SPIKE];
+		for (var i = 0; i < spike.length; i++) {
+			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10008 : 10009) : ItemType.AMETHYST_SPIKE);
+			spike[i].draw_life(spike[i].info);
+		}
+
+		/* Draw Reidite Spike */
+		var spike = world.units[ITEMS.REIDITE_SPIKE];
+		for (var i = 0; i < spike.length; i++) {
+			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10010 : 10011) : ItemType.REIDITE_SPIKE);
+			spike[i].draw_life(spike[i].info);
+		}
+
 
 		/* Draw Wood Door */
 		var door = world.units[ITEMS.WOOD_DOOR_SPIKE];
@@ -38634,48 +38677,7 @@
 		draw_map_transition(draw_objects_effect, is, ie, js, je, SPRITE.FOG, "fo", 2);
 		draw_map_transition(draw_objects_effect, is, ie, js, je, SPRITE.FOD, "fod", 2);
 
-		/* Draw Spike */
-		var spike = world.units[ITEMS.SPIKE];
-		for (var i = 0; i < spike.length; i++) {
-			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10000 : 10001) : ItemType.WOOD_SPIKE);
-			spike[i].draw_life(spike[i].info);
-		}
-
-		/* Draw Stone Spike */
-		var spike = world.units[ITEMS.STONE_SPIKE];
-		for (var i = 0; i < spike.length; i++) {
-			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10002 : 10003) : ItemType.STONE_SPIKE);
-			spike[i].draw_life(spike[i].info);
-		}
-
-		/* Draw Gold Spike */
-		var spike = world.units[ITEMS.GOLD_SPIKE];
-		for (var i = 0; i < spike.length; i++) {
-			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10004 : 10005) : ItemType.GOLD_SPIKE);
-			spike[i].draw_life(spike[i].info);
-		}
-
-		/* Draw Diamond Spike */
-		var spike = world.units[ITEMS.DIAMOND_SPIKE];
-		for (var i = 0; i < spike.length; i++) {
-			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10006 : 10007) : ItemType.DIAMOND_SPIKE);
-			spike[i].draw_life(spike[i].info);
-		}
-
-		/* Draw Amethyst Spike */
-		var spike = world.units[ITEMS.AMETHYST_SPIKE];
-		for (var i = 0; i < spike.length; i++) {
-			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10008 : 10009) : ItemType.AMETHYST_SPIKE);
-			spike[i].draw_life(spike[i].info);
-		}
-
-		/* Draw Reidite Spike */
-		var spike = world.units[ITEMS.REIDITE_SPIKE];
-		for (var i = 0; i < spike.length; i++) {
-			draw_transition(spike[i], colored_spikes ? (isAlly(spike[i]) ? 10010 : 10011) : ItemType.REIDITE_SPIKE);
-			spike[i].draw_life(spike[i].info);
-		}
-
+		
 		/* Draw crate */
 		var crate = world.units[ITEMS.CRATE];
 		for (var i = 0; i < crate.length; i++) draw_transition(crate[i], SPRITE.CRATE, SPRITE.HURT_DEAD_BOX);
