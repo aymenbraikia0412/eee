@@ -37524,7 +37524,7 @@
 
 				// Draw accessory if it exists
 				if (this.accessory > 0) {
-					var img = this.accessory < 94 ? sprite[SPRITE.ACCESSORY][0][world.time] : sprite[SPRITE.ACCESSORY][this.accessory][world.time];
+					var img = sprite[SPRITE.ACCESSORY][Math.floor(this.accessory)][world.time];
 					draw_image_transition_hd_2(SPRITE.ACCESSORY, this.accessory, img, -img.width / 4, -img.height / 4);
 				}
 			}
@@ -41174,6 +41174,7 @@
 				if (id === 15 && n === 80) id = ItemType.GROUND;
 				if (id === 17 && n === 60) id = ItemType.ICE;
 				if (id === 16 && n === 70) id = ItemType.SAND;
+				if (id === 24) id = ItemType.EMERALD;
 				if (user.craft.preview === id && user.inv.n[id] <= n) {
 					user.craft.preview = -2;
 				}
@@ -47677,12 +47678,12 @@
 				var sk = window.Number(cookiesManager.get("starve_skin"));
 				var ac = window.Number(cookiesManager.get("starve_accessory"));
 
-				if (!(ui.unlock.skin[ui.skin] > 0)) ui.skin = !(ui.unlock.skin[sk] > 0) ? 0 : sk;
-				if (!(ui.unlock.book[ui.book] > 0)) ui.book = !(ui.unlock.book[bk] > 0) ? 0 : bk;
-				if (!(ui.unlock.dead[ui.dead] > 0)) ui.dead = !(ui.unlock.dead[dd] > 0) ? 0 : dd;
-				if (!(ui.unlock.crate[ui.crate] > 0)) ui.crate = !(ui.unlock.crate[ct] > 0) ? 0 : ct;
-				if (!(ui.unlock.accessory[ui.accessory] > 0)) ui.accessory = !(ui.unlock.accessory[ac] > 0) ? 0 : ac;
-				if (!(ui.unlock.bag[ui.bag] > 0)) ui.bag = !(ui.unlock.bag[bg] > 0) ? 0 : bg;
+				ui.skin = isNaN(sk) ?0 : sk;
+				ui.book = isNaN(bk) ?0 : bk;
+				ui.dead = isNaN(dd) ?0 : dd;
+				ui.crate = isNaN(ct) ?0 : ct;
+				ui.accessory = isNaN(ac) ?0 : ac;
+				ui.bag = isNaN(bg) ?0 : bg;
 			}
 
 			// Move from a UI subview to another
@@ -50650,7 +50651,7 @@
 				FIRST_BUTTON_SKIN,
 				function (v) {
 					ui.skin = v;
-					if (ui.unlock.skin[v] === 1) cookiesManager.set("starve_skin", "" + v, 30);
+					cookiesManager.set("starve_skin", "" + v, 30);
 				},
 				this.skin,
 				this.unlock.skin
@@ -50660,7 +50661,7 @@
 				FIRST_BUTTON_BAG,
 				function (v) {
 					ui.bag = v;
-					if (ui.unlock.bag[v] === 1) cookiesManager.set("starve_bag", "" + v, 30);
+					cookiesManager.set("starve_bag", "" + v, 30);
 				},
 				this.bag,
 				this.unlock.bag
@@ -50670,7 +50671,7 @@
 				FIRST_BUTTON_BOOK,
 				function (v) {
 					ui.book = v;
-					if (ui.unlock.book[v] === 1) cookiesManager.set("starve_book", "" + v, 30);
+					cookiesManager.set("starve_book", "" + v, 30);
 				},
 				this.book,
 				this.unlock.book
@@ -50680,7 +50681,7 @@
 				FIRST_BUTTON_CRATE,
 				function (v) {
 					ui.dead = v;
-					if (ui.unlock.dead[v] === 1) cookiesManager.set("starve_dead", "" + v, 30);
+					cookiesManager.set("starve_dead", "" + v, 30);
 				},
 				this.dead,
 				this.unlock.dead
@@ -50690,7 +50691,7 @@
 				FIRST_BUTTON_LOOT,
 				function (v) {
 					ui.crate = v;
-					if (ui.unlock.crate[v] === 1) cookiesManager.set("starve_crate", "" + v, 30);
+					cookiesManager.set("starve_crate", "" + v, 30);
 				},
 				this.crate,
 				this.unlock.crate
@@ -50700,7 +50701,7 @@
 				FIRST_BUTTON_ACCESSORY,
 				function (v) {
 					ui.accessory = v;
-					if (ui.unlock.accessory[v] === 1) cookiesManager.set("starve_accessory", "" + v, 30);
+					cookiesManager.set("starve_accessory", "" + v, 30);
 				},
 				this.accessory,
 				this.unlock.accessory
@@ -54856,6 +54857,7 @@
 	});
 
 	document.addEventListener("keyup", (e) => {
+		if(user.chat.open || user.terminal.open) return
 		if (e.code == settings.Xray.key) settings.Xray.enabled = !settings.Xray.enabled;
 	});
 })();
